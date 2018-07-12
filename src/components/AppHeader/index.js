@@ -10,29 +10,23 @@ const AppHeader = (props) => {
       <div className='app-title-wrapper'>
         <div className='app-title-wrapper'>
           <div className='app-left-nav'>
-            <img src={logo} className='app-logo' alt='logo' />
+            
             <div className='app-title-text'>
               <h1 className='app-title'>Serverless React app with Fauna DB Example</h1>
               <p className='app-intro'>
-
+                  React + serverlessfunctions + FaunaDB
               </p>
             </div>
           </div>
         </div>
         <div className='deploy-button-wrapper'>
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example'>
-            <img src={deployButton} className='deploy-button' alt='deploy to netlify' />
-          </a>
           <div className='view-src'>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://github.com/netlify/netlify-faunadb-example'>
-              <img className='github-icon' src={github} alt='view repo on github' />
-              View the source Luke
+              href='https://github.com/agustind/netlify-faunadb'>
+              <img className='github-icon' src={github} alt='view code on github' />
+              View the source on GitHub
             </a>
           </div>
         </div>
